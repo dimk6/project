@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Дизайн студия</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
         <a>
-            <img alt="логотип" src="https://via.placeholder.com/160x65">
+            <img alt="логотип" src="images/nerds-logo.svg">
         </a>
-        <nav>
-            <ul>
-                <li>
+        <nav class="main-nav">
+            <ul class="site-list">
+                <li class="site-list_item">
                     <a href="#">
                         Студия
                     </a>
                 </li>
-                <li>
+                <li class="site-list_item">
                     <a href="#">
                         Клиенты
                     </a>
                 </li>
-                <li>
+                <li class="site-list_item">
                     <a href="#">
                         Магазин
                     </a>
                 </li>
-                <li>
+                <li class="site-list_item">
                     <a href="#">
                         Контакты
                     </a>
@@ -38,11 +39,11 @@
         </a>
     </header>
     <main>
-        <h1>
+        <h1 class="hidden">
             Дизайн студия
         </h1>
         <section>
-            <h2>
+            <h2 class="hidden">
                 Основные преимущества
             </h2>
             <div>
@@ -212,20 +213,42 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <div>
             <iframe src="https://yandex.ru/map-widget/v1/-/CCUJ6BB~HD" ></iframe>
-        </section>
+            <section>
+                <h2>
+                    Контакты
+                </h2>
+                <h3>
+                    NЁRDS DESIGN STUDIO
+                </h3>
+                <p>
+                    наб. Реки Карповки, 5 лит П, Санкт-Петербург
+                    <a href="tel:+78005558628">
+                        +7 800 555-86-28
+                    </a>
+                </p>
+            </section>
+        </div>
     </main>
     <footer>
-        <a href="#">
-            <img alt="ВК" src="https://via.placeholder.com/81x81">
-        </a>
-        <a href="#">
-            <img alt="фейсбук" src="https://via.placeholder.com/81x81">
-        </a>
-        <a href="#">
-            <img alt="инстаграм" src="https://via.placeholder.com/81x81">
-        </a>
+        <ul>
+            <li>
+                <a href="#">
+                    <img alt="ВК" src="https://via.placeholder.com/81x81">
+                 </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="фейсбук" src="https://via.placeholder.com/81x81">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img alt="инстаграм" src="https://via.placeholder.com/81x81">
+                </a>
+            </li>
+        </ul>
         <section>
             <h2>
                 Давайте дружить, это выгодно!
