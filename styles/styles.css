@@ -29,16 +29,128 @@ body {
     color: #000000;
 }
 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .site-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.site-list_item a {
+.site-list_item a,
+.trash {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #000000;
     text-decoration: none;
+}
+
+.advantages_title {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.advantages_description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.button {
+    display: inline-block;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 54px;
+    padding-right: 54px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FB565A;
+    border-radius: 3px;
+    border: none;
+}
+
+.button--green {
+    background-color: #00CA74;
+}
+
+.button--yellow {
+    background-color: #EFC849;
+}
+
+.services_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.services_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.services_description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.company_title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.company_description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.company_subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    text-transform: uppercase;
+}
+
+.company_subtitle--black {
+    color: #000000;
+}
+
+.company_advantages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.percent {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+}
+
+.percent sup {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
 }
