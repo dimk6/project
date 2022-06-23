@@ -46,6 +46,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    column-gap: 45px;
 }
 
 .site-list_item a,
@@ -153,4 +155,20 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 40px;
+}
+
+.header {
+  background-color: #EEEEEE;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-left: 140px;
+    padding-right: 140px;
+    box-sizing: border-box;
+    align-items: center;
 }
