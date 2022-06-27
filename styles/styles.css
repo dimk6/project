@@ -172,3 +172,11 @@ body {
     box-sizing: border-box;
     align-items: center;
 }
+
+.services_list {
+    display: flex;
+}
+
+.partners {
+    display: flex;
+}
