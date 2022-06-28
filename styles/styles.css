@@ -59,10 +59,26 @@ body {
     text-decoration: none;
 }
 
+.advantages {
+    padding-top: 1px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.wrapper {
+    padding-left: 140px;
+    padding-right: 143px;
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .advantages_title {
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .advantages_description {
@@ -185,4 +201,20 @@ body {
 }
 .company_advantages {
     display: flex;
+}
+
+.slider-buttons {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 96px;
+}
+
+.slide-1 {
+    background-image: url("../images/slide1.png");
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 78px;
 }
