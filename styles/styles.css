@@ -179,4 +179,10 @@ body {
 
 .partners {
     display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.company_advantages {
+    display: flex;
 }
