@@ -85,6 +85,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #283136;
+    margin-bottom: 27px;
 }
 
 .button {
@@ -114,9 +115,22 @@ body {
 }
 
 .services_list {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-bottom: 87px;
+}
+
+.services_item-1::before {
+    width: 300px;
+    height: 146px;
+    content:"";
+    background-image: url("../images/illustration1.jpg");
+    display: block;
 }
 
 .services_title {
@@ -211,6 +225,34 @@ body {
     bottom: 96px;
 }
 
+.slider-buttons button{
+    margin-right: 17px;
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: none;
+    border-radius:50%;
+    position: relative;
+
+}
+
+.active::before {
+    content:"" ;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #C1C1C1;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    box-sizing: border-box;
+}
+
+.slider-buttons button:last-child {
+    margin-right: 0px;
+}
+
 .slide-1 {
     background-image: url("../images/slide1.png");
     padding-bottom: 80px;
@@ -218,3 +260,22 @@ body {
     background-position: right;
     padding-top: 78px;
 }
+
+.slide-2 {
+    background-image: url("../images/slide2.png");
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 78px;
+    display: none;
+}
+
+.slide-3 {
+    background-image: url("../images/slide-3.png");
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 78px;
+    display: none;
+}
+
